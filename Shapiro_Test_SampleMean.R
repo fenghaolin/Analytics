@@ -13,3 +13,4 @@ lines(x,dnorm(x,mean=mean(y),sd=sd(y)),col='blue')
 ## The Shapiro Normality test yields an extremely small p-value
 ## suggests that the Null hypothesis should be rejected at any level >7.32e-5
 shapiro.test(y)
+###https://gist.github.com/fenghaolin/9a7b0cb5c1e9c0e5073a508bb4b0da47
